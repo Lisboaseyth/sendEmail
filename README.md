@@ -26,7 +26,7 @@ composer install
 npm install
 ```
 
-1. Execute as migrações do banco de dados:
+7. Execute as migrações do banco de dados:
 
 ```bash
 
@@ -37,7 +37,7 @@ php artisan migrate
 php artisan migrate:fresh
 ```
 
-4. Inicie o servidor:
+8. Inicie o servidor:
 
 ```bash
 # Abra um terminal e digite:
@@ -47,4 +47,4 @@ php artisan serve
 npm run dev
 ```
 
-1. Após fazer todos os passos descritos a aplicação estará sendo executado em http://127.0.0.1:8000.
+9. Após fazer todos os passos descritos a aplicação estará sendo executado em http://127.0.0.1:8000.
