@@ -1,0 +1,108 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+#titleH1 {
+    font-size: 30px;
+}
+
+.header-nav {
+    width: 100vw;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 50px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.1) 0px 3px 7px -3px;
+}
+
+.nav-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul-Nav{
+    height: 100%;
+
+    margin-bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+
+    gap: 30px;
+}
+
+.iconLogo {
+    width: 40px;
+}
+
+.ul-Nav > li > a {
+    text-decoration: none;
+}
+
+.inputMsgForm {
+    height: 60px;
+}
+
+.divPage {
+    display: flex;
+    padding-top: 55px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #f2f2f2;
+
+    padding: 20px;
+
+    color: #333;
+    text-align: center;
+
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+
+    position: absolute;
+    bottom: 0;
+}
+
+.divFirst {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 90%;
+
+    margin-bottom: 20px;
+}
+
+.formRegister {
+    width: 80%;
+    max-width: 600px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
