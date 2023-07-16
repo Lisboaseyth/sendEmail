@@ -42,7 +42,7 @@
         </div>
         <div class="divForm">
             <span>Emails List:</span>
-            <textarea name="email_list" class="form-control"></textarea>
+            <textarea name="emails-list" class="form-control" placeholder="email@mail.com, email2@mail.com, ..."></textarea>
         </div>
         <button id="sendBtn" type="submit" class="btn btn-primary btn-lg" style="margin: 20px 0; width: 200px">Enviar</button>
     </form>
