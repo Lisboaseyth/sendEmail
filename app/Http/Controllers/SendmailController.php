@@ -12,7 +12,7 @@ class SendmailController extends Controller
     {
         $subject = $request->subject;
         $message = $request->message;
-        $emailList = explode(',', $request->input('emailList'));
+        $emailList = explode(',', $request->input('emails-list'));
 
         $data = [
             'subject' => $subject,

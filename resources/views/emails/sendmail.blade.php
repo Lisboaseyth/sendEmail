@@ -1,12 +1,12 @@
 <x-mail::message>
-# Subject: {{ $data['subject'] }}
+# {{ $data['subject'] }}
 
-<p>Message: {{ $data['message'] }}</p>
+<p>{{ $data['message'] }}</p>
 
-<x-mail::button :url="''">
-Button Text
+<x-mail::button :url="'https://github.com/Lisboaseyth/sendEmail'">
+Repositório do Projeto
 </x-mail::button>
 
-Thanks,<br>
+Atenciosamente,<br>
 {{ config('app.name') }}
 </x-mail::message>

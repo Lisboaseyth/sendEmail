@@ -32,7 +32,7 @@
                     </li>
                     @auth
                     <li>
-                        <a href="/">Perfil</a>
+                        <a href="/user/profile">Perfil</a>
                     </li>
                     <li>
                         <form action="/logout" method="POST">
