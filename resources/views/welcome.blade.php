@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Área Login')
+@section('title', 'SendEmail')
 
 @section('content')
 
@@ -8,7 +8,7 @@
     @auth
     <h1>Automatize seu email!</h1>
     <p>Preencha os dados abaixo para automatizar o envio de emails.</p>
-    <form action="{{ route('email.store') }}" method="post">
+    <form class="formSend" action="{{ route('email.store') }}" method="post">
     {{ csrf_field() }}
         @if(count($errors) > 0)
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
@@ -18,17 +18,11 @@
                     <li>{{ $error }}</li>
                 @endforeach
             </ul>
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
         </div>
         @endif
-        @if($message = Session::get('sucess'))
-        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        @if($message = Session::get('success'))
+        <div style="width: 90%;" class="alert alert-success alert-dismissible fade show" role="alert">
             <strong>{{$message}}</strong>
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
         </div>
         @endif
 
