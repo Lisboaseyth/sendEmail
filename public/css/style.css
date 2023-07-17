@@ -106,3 +106,9 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+.formSend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
